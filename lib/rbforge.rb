@@ -11,7 +11,7 @@ module Rbforge
       when 'init'
         init_c
       else
-        puts "Unknown command."
+        puts "[x] - Unknown command."
       end
     end
 
