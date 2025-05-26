@@ -1,6 +1,6 @@
 # Rbforge
 
-Rbforge is a CLI gem that helps you quickly start Ruby projects by automatically generating essential files such as `README.md`, `Gemfile`, `lib/`, `version.rb`, and more.
+Rbforge is a CLI gem that helps you quickly start Ruby projects by automatically generating essential files such as `README.md`, `Gemfile`, `src/`, and more.
 
 Perfect for Ruby developers who want to standardize or accelerate the creation of new gems or plain Ruby projects.
 
@@ -9,7 +9,7 @@ Perfect for Ruby developers who want to standardize or accelerate the creation o
 ## ✨ Features
 
 - Automatically generates basic files:  
-  `README.md`, `Gemfile`, `lib/main.rb`, `lib/<name>.rb`, `lib/<name>/version.rb`
+  `README.md`, `Gemfile`, `src/main.rb`
 - Quick Ruby project scaffolding
 - Terminal interface (`rbforge` command)
 
@@ -42,7 +42,7 @@ my_project/
 ├── .gitignore
 ├── Gemfile
 ├── README.md
-└── lib/
+└── src/
     └── main.rb
 ```
 
