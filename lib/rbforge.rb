@@ -18,11 +18,11 @@ module Rbforge
     def self.init_c
       puts "[*] - FORGING your ruby project..."
 
-      FileUtils.mkdir_p('lib')
+      FileUtils.mkdir_p('src')
       FileUtils.touch('Gemfile')
       FileUtils.touch('README.md')
       FileUtils.touch('.gitignore')
-      FileUtils.touch('lib/main.rb')
+      FileUtils.touch('src/main.rb')
 
       File.open('Gemfile', "w") do |g_file|
         g_file.puts 'source "https://rubygems.org"'
