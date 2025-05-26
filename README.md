@@ -1,39 +1,55 @@
 # Rbforge
 
-TODO: Delete this and the text below, and describe your gem
+Rbforge is a CLI gem that helps you quickly start Ruby projects by automatically generating essential files such as `README.md`, `Gemfile`, `lib/`, `version.rb`, and more.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rbforge`. To experiment with that code, run `bin/console` for an interactive prompt.
+Perfect for Ruby developers who want to standardize or accelerate the creation of new gems or plain Ruby projects.
 
-## Installation
+<br>
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+## ✨ Features
 
-Install the gem and add to the application's Gemfile by executing:
+- Automatically generates basic files:  
+  `README.md`, `Gemfile`, `lib/main.rb`, `lib/<name>.rb`, `lib/<name>/version.rb`
+- Quick Ruby project scaffolding
+- Terminal interface (`rbforge` command)
+
+<br>
+
+## 💾 Installation
+
+Add to your project with:
 
 ```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+bundle add rbforge
 ```
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+Or install it directly:
 
 ```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+gem install rbforge
 ```
 
-## Usage
+Create a new Ruby project structure with inside of your project folder:
 
-TODO: Write usage instructions here
+```bash
+rbforge init
+```
 
-## Development
+This will create a project with the default starter structure:
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+```
+my_project/
+├── .gitignore
+├── Gemfile
+├── README.md
+└── lib/
+    └── main.rb
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+You can then edit the files as needed and begin development right away.
 
-## Contributing
+<br>
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rbforge.
+# License
+This gem is available as open source under the terms of the MIT License.
 
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
