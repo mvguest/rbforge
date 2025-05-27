@@ -29,7 +29,7 @@ Or install it directly:
 gem install rbforge
 ```
 
-Create a new Ruby project structure with inside of your project folder:
+Create a new Ruby project structure inside of your project folder with:
 
 ```bash
 rbforge init
