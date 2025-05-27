@@ -28,7 +28,7 @@ module Rbforge
         g_file.puts 'source "https://rubygems.org"'
       end
 
-      File.open('lib/main.rb', "w") do |m_file|
+      File.open('src/main.rb', "w") do |m_file|
         m_file.puts 'puts "Hello, world"'
       end
 
